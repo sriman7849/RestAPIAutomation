@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42e855b-d68c-4fb6-a41a-d774beb59509" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/feature/Placevalidation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API_Resources/APIResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API_Resources/TestDataBind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/API_Resources/util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Options/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/AddPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pojo/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefination/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefination/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/feature/Placevalidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/Placevalidation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Resources/APIResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Resources/APIResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Resources/util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Resources/util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Options/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/AddPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/AddPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefination/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefination/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/global.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +48,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/SK66921/Documents/RestAssured/API_Framework/src/test/resources",
+    "last_opened_file_path": "C:/Users/SK66921/Documents/Git/RestAPIAutomation/src/main/java/pojo",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -63,12 +60,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SK66921\Documents\Git\RestAPIAutomation\src\main\java\pojo" />
       <recent name="C:\Users\SK66921\Documents\RestAssured\API_Framework\src\test\resources" />
       <recent name="C:\Users\SK66921\Documents\RestAssured\API_Framework\src\test\java" />
       <recent name="C:\Users\SK66921\Documents\RestAssured\API_Framework\src\test\java\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SK66921\Documents\Git\RestAPIAutomation\src\test\java" />
+      <recent name="C:\Users\SK66921\Documents\Git\RestAPIAutomation\src\test" />
       <recent name="C:\Users\SK66921\Documents\RestAssured\API_Framework\src\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="stepdefination" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestRunner">

@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import API_Resources.APIResources;
@@ -18,14 +19,16 @@ import static io.restassured.RestAssured.*;
 public class MyStepdefs extends util {
 
     RequestSpecification request_spec;
-    Response response;
+    public static Response response;
     TestDataBind test = new TestDataBind();
-    static String placeid ;
+    public static String placeid ;
+    public static String name;
+    public static String token;
 
     @Given("Add Place Payload with {string} {string}")
     public void add_Place_Payload_with(String name, String address) throws IOException {
         //request spec
-        request_spec = given().spec(requestSpecification()).body(test.addPlacePayLoad(name, address));
+        request_spec = given().spec(requestSpecificationForPlaceAPI()).body(test.addPlacePayLoad(name, address));
     }
 
     @When("user calls {string} with {string} http request")
@@ -44,10 +47,11 @@ public class MyStepdefs extends util {
         assertEquals(response.getStatusCode(), statusCode);
     }
 
-    @Override
-    public RequestSpecification requestSpecification() throws IOException {
-        return super.requestSpecification();
+  @Override
+    public RequestSpecification requestSpecificationForPlaceAPI() throws IOException {
+        return super.requestSpecificationForPlaceAPI();
     }
+
 
     @And("{string} in response body is {string}")
     public void inResponseBodyIs(String key, String value) {
@@ -59,10 +63,13 @@ public class MyStepdefs extends util {
         //ADD place response in which we pass json data (name,address e.t.c) then we get response in form of place id.
         placeid = util.getJson_Path(response, "place_id");
         //pass query parameter
-        request_spec = given().spec(requestSpecification()).queryParam("place_id", placeid);
+        request_spec = given().spec(requestSpecificationForPlaceAPI()).queryParam("place_id", placeid);
         // Now we are passing get request to fetch stored data in json form using place id
         user_calls_with_http_request(resourceName, "GET");
-        String name = util.getJson_Path(response, "name");
+       /* String s = response.asString();
+        JsonPath js = new JsonPath(s);
+        name=js.get("name").toString();*/
+        name = util.getJson_Path(response, "name");
         assertEquals(expectedName, name);
     }
 
@@ -70,8 +77,9 @@ public class MyStepdefs extends util {
     @Given("DeletePlace Payload")
     public void deleteplacePayload() throws IOException {
 
-        request_spec = given().spec(requestSpecification()).body(test.deletePlacePayload(placeid));
+        request_spec = given().spec(requestSpecificationForPlaceAPI()).body(test.deletePlacePayload(placeid));
     }
+
 }
 
 
