@@ -11,7 +11,7 @@ Request params:	productName=Laptop
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwY2E1ZjU2OGMzZTlmYjEwMTczN2QiLCJ1c2VyRW1haWwiOiJzcmltYW5uYWlkdTc4NDlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzcyOTkzMTc5NiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY3NDkwNDkzMSwiZXhwIjoxNzA2NDYyNTMxfQ.a11TP4sbftdkRJkU7vNFkE5EE28C2JTqzfXmt9bZrGY
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwY2E1ZjU2OGMzZTlmYjEwMTczN2QiLCJ1c2VyRW1haWwiOiJzcmltYW5uYWlkdTc4NDlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzcyOTkzMTc5NiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY3NTA2NTA3NiwiZXhwIjoxNzA2NjIyNjc2fQ.ruBh8Af08J9cSV0Q4xPh6EY-3-f6AVAY9Af0_uALuJQ
 				Accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -19,10 +19,10 @@ Multiparts:		------------
 				Content-Disposition: form-data; name = productImage; filename = macBook.png
 				Content-Type: application/octet-stream
 
-				C:\Users\SK66921\Documents\Git\RestAPIAutomation\macBook.png
+				E:\REST-ASSURED\RestAPIAutomation\macBook.png
 Body:			<none>
 HTTP/1.1 201 Created
-Date: Sat, 28 Jan 2023 11:22:11 GMT
+Date: Mon, 30 Jan 2023 07:51:17 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -37,12 +37,12 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 79
-ETag: W/"4f-sBmMp4bd2m8Ujtr8L4+Gu4T1tW4"
+ETag: W/"4f-UjjuCj/H9Bb6m/HsaXjfRXN7A7w"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
-    "productId": "63d50563568c3e9fb1049bc8",
+    "productId": "63d776f5568c3e9fb105e579",
     "message": "Product Added Successfully"
 }

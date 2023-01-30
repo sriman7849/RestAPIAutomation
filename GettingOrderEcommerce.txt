@@ -1,17 +1,17 @@
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=63d50565568c3e9fb1049bce
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/get-orders-details?id=63d776f6568c3e9fb105e582
 Proxy:			<none>
 Request params:	<none>
-Query params:	id=63d50565568c3e9fb1049bce
+Query params:	id=63d776f6568c3e9fb105e582
 Form params:	<none>
 Path params:	<none>
-Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwY2E1ZjU2OGMzZTlmYjEwMTczN2QiLCJ1c2VyRW1haWwiOiJzcmltYW5uYWlkdTc4NDlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzcyOTkzMTc5NiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY3NDkwNDkzMSwiZXhwIjoxNzA2NDYyNTMxfQ.a11TP4sbftdkRJkU7vNFkE5EE28C2JTqzfXmt9bZrGY
+Headers:		authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2QwY2E1ZjU2OGMzZTlmYjEwMTczN2QiLCJ1c2VyRW1haWwiOiJzcmltYW5uYWlkdTc4NDlAZ21haWwuY29tIiwidXNlck1vYmlsZSI6NzcyOTkzMTc5NiwidXNlclJvbGUiOiJjdXN0b21lciIsImlhdCI6MTY3NTA2NTA3NiwiZXhwIjoxNzA2NjIyNjc2fQ.ruBh8Af08J9cSV0Q4xPh6EY-3-f6AVAY9Af0_uALuJQ
 				Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Sat, 28 Jan 2023 11:22:13 GMT
+Date: Mon, 30 Jan 2023 07:51:18 GMT
 Server: Apache/2.4.41 (Ubuntu)
 Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
 X-DNS-Prefetch-Control: off
@@ -26,21 +26,21 @@ X-XSS-Protection: 0
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 420
-ETag: W/"1a4-YUuf3Erngm4SuRy5KwEtZpDJpio"
+ETag: W/"1a4-M91tNgZZtEi62Ea/xoK67QC0YTw"
 Vary: Accept-Encoding
 Keep-Alive: timeout=5, max=100
 Connection: Keep-Alive
 
 {
     "data": {
-        "_id": "63d50565568c3e9fb1049bce",
+        "_id": "63d776f6568c3e9fb105e582",
         "orderById": "63d0ca5f568c3e9fb101737d",
         "orderBy": "srimannaidu7849@gmail.com",
-        "productOrderedId": "63d50563568c3e9fb1049bc8",
+        "productOrderedId": "63d776f5568c3e9fb105e579",
         "productName": "Laptop",
         "country": "India",
         "productDescription": "Best Laptop",
-        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1674904931839.png",
+        "productImage": "https://rahulshettyacademy.com/api/ecom/uploads/productImage_1675065077269.png",
         "orderPrice": "90000",
         "__v": 0
     },

@@ -6,14 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d42e855b-d68c-4fb6-a41a-d774beb59509" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/feature/Placevalidation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/feature/Placevalidation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/API_Resources/APIResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Resources/APIResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddProductEcommerce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AddProductEcommerce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeletingProductEcommerce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeletingProductEcommerce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GettingOrderEcommerce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GettingOrderEcommerce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlacingOrderEcommerce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlacingOrderEcommerce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggingForEcommerce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/loggingForEcommerce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/API_Resources/util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Resources/util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Options/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/AddPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/AddPlace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefination/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefination/MyStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Options/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/global.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/global.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/SK66921/Documents/Git/RestAPIAutomation/src/main/java/pojo",
+    "last_opened_file_path": "E:/REST-ASSURED/RestAPIAutomation",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -74,7 +74,26 @@
       <recent name="stepdefination" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="Maven.APIFramework [test]">
+    <configuration name="Feature: EndToEndEcommerce" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4.5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/feature/EndToEndEcommerce.feature" />
+      <option name="GLUE" value="stepdefination" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RestAPIAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: EndToEndEcommerce" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: Placevalidation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4.5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/feature/Placevalidation.feature" />
@@ -115,23 +134,57 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APIFramework" />
+      <module name="RestAPIAutomation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Options.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Option" />
-      <option name="MAIN_CLASS_NAME" value="Options.TestRunner" />
+      <option name="PACKAGE_NAME" value="cucumber.Options" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Options.TestRunner" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="APIFramework [test]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: EndToEndEcommerce" />
+      <item itemvalue="Cucumber Java.Feature: Placevalidation" />
+      <item itemvalue="Cucumber Java.Scenario: Verify if Delete Place functionality is working" />
+      <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="Maven.APIFramework [test]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: EndToEndEcommerce" />
         <item itemvalue="Cucumber Java.Feature: Placevalidation" />
         <item itemvalue="Cucumber Java.Scenario: Verify if Delete Place functionality is working" />
       </list>

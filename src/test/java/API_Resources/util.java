@@ -20,7 +20,7 @@ public class util {
     public RequestSpecification requestSpecificationForPlaceAPI() throws IOException {
 
         if (req == null) {
-            //** Logging to the output stream such as console or file or anything which we specifies*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+            //** Logging to the output stream such as console or file or anything which we specifies*/
             PrintStream stream = new PrintStream(new FileOutputStream("loggingForPlaceAPI.txt"));
             req = new RequestSpecBuilder().setRelaxedHTTPSValidation().setBaseUri(retrieveGlobalProperties("baseUrl"))
                     .addQueryParam("key", "qaclick123")
@@ -51,7 +51,7 @@ public class util {
 
     public static String retrieveGlobalProperties(String key) throws IOException {
         Properties prop = new Properties();
-        FileInputStream fis = new FileInputStream("C:\\Users\\SK66921\\Documents\\Git\\RestAPIAutomation\\src\\test\\resources\\global.properties");
+        FileInputStream fis = new FileInputStream("E:\\REST-ASSURED\\RestAPIAutomation\\src\\test\\resources\\global.properties");
         prop.load(fis);
         String property = prop.getProperty(key);
         return property;
