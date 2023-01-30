@@ -13,7 +13,7 @@ public class DataBindForPlacingOrder {
         orderDetail.setCountry("India");
         orderDetail.setProductOrderedId(productId);
 
-        List<OrderDetails> orderDetailList = new ArrayList<>();
+        List<OrderDetails> orderDetailList = new ArrayList<OrderDetails>();
         orderDetailList.add(orderDetail);
         Orders orders = new Orders();
         orders.setOrders(orderDetailList);

@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions
         (
                 features = "src/test/feature/EndToEndEcommerce.feature",
-                glue = {"stepdefination"}
-                //plugin = "json:target/jsonReport/Cucumber-report"/*Path folder for reporting in json format*/
+                glue = {"stepdefination"},
+                plugin = "json:target/jsonReports/Cucumber-report.json"/*Path folder for reporting in json format*/
                // plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
                 //tags = {"@LoginForEcommerce"} /*Can be provided to run single scenario using tags*/
         )
